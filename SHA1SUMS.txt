@@ -1,7 +1,7 @@
 Houshin Engi Aizouban (PlayStation) - English translation v1.0 - SHA-1 checksums
 
 The release download
-e14fa9f0fb352221ebe462012eba7eb814908dc0  HoushinEngi-EN-v1.0.zip
+7864f1a745337e40fe6ef542f7e32edeaa6e6cd5  HoushinEngi-EN-v1.0.zip
 
 Files inside the zip
 6091dc24c5ce2bb9cd64b52651e1051ba6cbb8bc  HoushinEngi-EN-v1.0.xdelta

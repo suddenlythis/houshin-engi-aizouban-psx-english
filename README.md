@@ -13,8 +13,7 @@ disc image of **Houshin Engi - Aizouban (Japan)** (SLPM-86209), the Redump versi
 
 ## Progress
 
-Version 1.0: everything in the game is translated, apart from the voices and the staff
-roll, which stay in Japanese (see Not translated).
+Version 1.0: everything in the game is translated.
 
 | Area | Status | Details |
 |---|---|---|
