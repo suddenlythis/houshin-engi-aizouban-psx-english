@@ -1,12 +1,12 @@
-Houshin Engi Aizouban (PlayStation) - English translation v1.0 - SHA-1 checksums
+Houshin Engi Aizouban (PlayStation) - English translation v1.0.1 - SHA-1 checksums
 
 The release download
-7864f1a745337e40fe6ef542f7e32edeaa6e6cd5  HoushinEngi-EN-v1.0.zip
+7b627db4a8d28c8c667c0b956559535b05d48197  HoushinEngi-EN-v1.0.1.zip
 
 Files inside the zip
-6091dc24c5ce2bb9cd64b52651e1051ba6cbb8bc  HoushinEngi-EN-v1.0.xdelta
+98ddb10cf62091adfd94844fb8389a20d091ae48  HoushinEngi-EN-v1.0.1.xdelta
 5e0c18bacd82e0065c193535374adb0ab1a12852  Houshin Engi - Aizouban (English).cue
 
 Your disc image (the data track), 363,266,400 bytes
 81351d74a1623f65a83220bf313df4a36a953361  before patching: Houshin Engi - Aizouban (Japan).bin
-a2cba8b52438d95cf329d51cc00d2864831eb0b2  after patching with HoushinEngi-EN-v1.0.xdelta
+97a7aae7c3fdb5742a701ee7abfbe74eccc1aeae  after patching with HoushinEngi-EN-v1.0.1.xdelta

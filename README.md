@@ -1,10 +1,10 @@
-# Houshin Engi Aizouban (PlayStation) English translation v1.0
+# Houshin Engi Aizouban (PlayStation) English translation v1.0.1
 
 An unofficial fan translation patch for **Aizouban Houshin Engi** (愛蔵版 封神演義).
 It contains only the changes to the game's data track, not the game: you need your own
 disc image of **Houshin Engi - Aizouban (Japan)** (SLPM-86209), the Redump version.
 
-**[Download the patch (v1.0)](https://github.com/suddenlythis/houshin-engi-aizouban-psx-english/releases/tag/v1.0)**
+**[Download the patch (v1.0.1)](https://github.com/suddenlythis/houshin-engi-aizouban-psx-english/releases/tag/v1.0.1)**
  · [How to install](INSTALL.md) · [Checksums](SHA1SUMS.txt)
 
 <p align="center">
@@ -13,7 +13,7 @@ disc image of **Houshin Engi - Aizouban (Japan)** (SLPM-86209), the Redump versi
 
 ## Progress
 
-Version 1.0: everything in the game is translated.
+Version 1.0.1: everything in the game is translated.
 
 | Area | Status | Details |
 |---|---|---|
@@ -203,6 +203,10 @@ One bug fixed along the way: the save and load screens copied the location name 
 16-byte buffer. Japanese names always fitted, but long English names overflowed it and froze the
 screen. The routine was changed so that any length works.
 
+The same kind of fault was behind the freeze fixed in v1.0.1: the "joined the party" message was
+built in a buffer sized for Japanese names, and "Princess Ryuukitsu joined the party!" did not
+fit. Every place where the game builds a message this way has now been checked.
+
 ## Not translated
 
 - The voice acting and battle cries, which stay Japanese. Every voiced line has English text
@@ -240,6 +244,7 @@ screen. The routine was changed so that any length works.
 | Version | Date | Notes |
 |---|---|---|
 | v1.0 | 2026-11-22 | First release. Full script, menus, names, encyclopedia, graphics, movie subtitles, English name entry and memory card title |
+| v1.0.1 | 2026-11-25 | Fixed a freeze at the start of chapter 3, right after Princess Ryuukitsu joins, and a freeze when opening Auto Battle during a battle. Long names are now safe in the battle unit list and the loss-condition box, and the split deployment screen (Invasion, Divided Army) no longer clips its text. Saves from v1.0 work |
 
 ---
 

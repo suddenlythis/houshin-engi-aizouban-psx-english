@@ -1,4 +1,4 @@
-# Installing the Houshin Engi Aizouban English translation (v1.0)
+# Installing the Houshin Engi Aizouban English translation (v1.0.1)
 
 The download contains only the changes to the game's data track, not the game. You need your
 own disc image of Houshin Engi - Aizouban (Japan), the Redump version.
@@ -22,7 +22,7 @@ own disc image of Houshin Engi - Aizouban (Japan), the Redump version.
 
 | File | What it is |
 |---|---|
-| `HoushinEngi-EN-v1.0.xdelta` | The patch for the data track |
+| `HoushinEngi-EN-v1.0.1.xdelta` | The patch for the data track |
 | `Houshin Engi - Aizouban (English).cue` | Optional cue sheet, only for the side-by-side alternative below. Most people do not need it |
 | `README.txt` | The release notes |
 
@@ -33,7 +33,7 @@ Patch the `.bin` with the `.xdelta`. Keep the file name, and open your usual `.c
 ### With Delta Patcher
 
 1. Original file = your `Houshin Engi - Aizouban (Japan).bin`
-2. XDelta patch = `HoushinEngi-EN-v1.0.xdelta`
+2. XDelta patch = `HoushinEngi-EN-v1.0.1.xdelta`
 3. Tick Backup original file in the settings, then Apply patch.
 
 ### With the command line
@@ -42,7 +42,7 @@ xdelta3 writes a new file, so rename the original first:
 
 ```
 ren "Houshin Engi - Aizouban (Japan).bin" "original.bin"
-xdelta3 -d -s "original.bin" HoushinEngi-EN-v1.0.xdelta "Houshin Engi - Aizouban (Japan).bin"
+xdelta3 -d -s "original.bin" HoushinEngi-EN-v1.0.1.xdelta "Houshin Engi - Aizouban (Japan).bin"
 ```
 
 ### Check the result
@@ -51,7 +51,7 @@ The patched file is 363,266,400 bytes with this SHA-1 checksum:
 
 | File | SHA-1 after patching |
 |---|---|
-| `.bin` | `a2cba8b52438d95cf329d51cc00d2864831eb0b2` |
+| `.bin` | `97a7aae7c3fdb5742a701ee7abfbe74eccc1aeae` |
 
 ## Alternative: keep the Japanese and English discs side by side
 
